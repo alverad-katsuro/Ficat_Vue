@@ -1,0 +1,127 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ficha</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Noto+Serif:wght@400;700&family=Tinos:wght@400;700&display=swap');
+
+      body {
+        background-color: white;
+        font-family: __fontFamily__;
+        font-size: __fontSize__;
+        /* font-size: 10px; */
+      }
+
+      .wrapper {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .header {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 0;
+        white-space: pre-wrap;
+        font-size: 7px;
+      }
+
+      .card-body {
+        border-style: solid;
+        max-height: 10.5cm;
+        max-width: 9cm;
+        border-width: thin;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: black transparent;
+        padding: 1.8em 0.5cm 0.5em;
+      }
+
+      .content-wrapper {
+        max-height: 100%;
+        max-width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        -webkit-box-pack: 'flex-start';
+        -ms-flex-pack: 'flex-start';
+        justify-content: 'flex-start';
+      }
+
+      .cutter {
+        /* float: left; */
+        text-align: right;
+        margin-right: 2em;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        /* height: 100%;
+      max-width: 5em; */
+      }
+
+      .card-data {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+      }
+
+      .clearfix::after {
+        content: '';
+        clear: both;
+        display: block;
+      }
+
+      p {
+        margin: 0 auto;
+      }
+
+      p.cdd {
+        margin-top: 0.3em;
+
+        text-align: right;
+      }
+
+      .card-data .justify {
+        text-align: justify;
+      }
+
+      .mt {
+        margin-top: 0.5em;
+      }
+
+      .ml::first-letter {
+        margin-left: 1.6em;
+      }
+
+      .pages {
+        margin-bottom: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        {{header}}
+      </div>
+      <div class="card-body clearfix">
+        <div class="content-wrapper">
+          <div class="cutter">{{cutter}}</div>
+          <div class="card-data clearfix">
+            <p>{{authorHeader}}</p>
+            <p class="ml justify">{{workTitleHeader}}</p>
+            <p class="ml pages">{{pagesHeader}}</p>
+            {{advisorsHeader}} {{cotutorshipAdvisorHeader}} {{coadvisorHeader}}
+            <p class="ml">{{workHeader}}</p>
+            <p class="mt ml">{{keywordHeader}}</p>
+          </div>
+        </div>
+        <p class="cdd">CDD {{cdd}}</p>
+      </div>
+    </div>
+  </body>
+</html>
