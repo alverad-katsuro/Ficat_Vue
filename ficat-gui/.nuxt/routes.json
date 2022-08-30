@@ -1,0 +1,79 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_ba02f4f8"
+  },
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_1e61236e"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_e743f940"
+  },
+  {
+    "name": "statistics",
+    "path": "/statistics",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/statistics.vue",
+    "chunkName": "pages/statistics",
+    "_name": "_377dafbc"
+  },
+  {
+    "name": "talk",
+    "path": "/talk",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/talk.vue",
+    "chunkName": "pages/talk",
+    "_name": "_28ba88f6"
+  },
+  {
+    "name": "tutorial",
+    "path": "/tutorial",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/tutorial.vue",
+    "chunkName": "pages/tutorial",
+    "_name": "_0e5bfe92"
+  },
+  {
+    "name": "admin-areas_do_conhecimento",
+    "path": "/admin/areas_do_conhecimento",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/admin/areas_do_conhecimento.vue",
+    "chunkName": "pages/admin/areas_do_conhecimento",
+    "_name": "_28a47ebe"
+  },
+  {
+    "name": "admin-cursos",
+    "path": "/admin/cursos",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/admin/cursos.vue",
+    "chunkName": "pages/admin/cursos",
+    "_name": "_047c7270"
+  },
+  {
+    "name": "admin-unidades_academicas",
+    "path": "/admin/unidades_academicas",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/admin/unidades_academicas.vue",
+    "chunkName": "pages/admin/unidades_academicas",
+    "_name": "_7a2a432a"
+  },
+  {
+    "name": "admin-usuarios",
+    "path": "/admin/usuarios",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/admin/usuarios.vue",
+    "chunkName": "pages/admin/usuarios",
+    "_name": "_3d304ede"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/sfcatv/ficat-vue/ficat-gui/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7a933f6e"
+  }
+]
