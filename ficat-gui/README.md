@@ -52,4 +52,6 @@ $ npm run generate
 ```
 ### Docker
 
+``` bash
+
 $ docker-compose up
