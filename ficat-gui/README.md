@@ -48,3 +48,8 @@ $ npm run start
 
 # Gera projeto estatico (para nginx / apache2 etc)
 $ npm run generate
+
+```
+### Docker
+
+$ docker-compose up
