@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  application:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      network: host
+    container_name: ficat
+    image: ficat:latest
+    restart: unless-stopped
+    networks:
+      - localhost
+networks:
+  localhost:
+    external: true
+    name: host
