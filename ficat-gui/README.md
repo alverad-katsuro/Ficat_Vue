@@ -48,3 +48,12 @@ $ npm run start
 
 # Gera projeto estatico (para nginx / apache2 etc)
 $ npm run generate
+
+```
+### Docker mode
+
+``` bash
+
+# Instale o Docker e o Docker Compose
+
+$ docker-composer up
