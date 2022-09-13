@@ -56,4 +56,6 @@ $ npm run generate
 
 # Instale o Docker e o Docker Compose
 
+# Run project
+
 $ docker-composer up
